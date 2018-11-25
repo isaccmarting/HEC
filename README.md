@@ -4,7 +4,7 @@
 JacobiSequential.c: a serial implementation of Jacobi method.  
 JacobiMPI.c: a parallel implementation of Jacobi method with pure MPI.  
 JacobiMPIandOpenMP.c: a parallel implementation of Jacobi method with MPI+OpenMP.  
-machinefile: the configuration file in the format "<node>: <the number of processors>".  
+machinefile: the configuration file in the format "node: the number of processors".  
 Makefile: the file containing required instructions to compile and run.  
 
 ## Requirements
