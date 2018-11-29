@@ -316,7 +316,7 @@ void initialMatrix(Matrix mat)
     double** values; 
     int i, j; 
     
-    // 根据线程数划分网格矩阵，按带均匀分割，多出的行均匀分到开始的几个矩阵区域
+    // 根据进程数划分网格矩阵，按带均匀分割，多出的行均匀分到开始的几个矩阵区域
     if(myRank < N % numProcs)
         height = N / numProcs + 1; 
     else
